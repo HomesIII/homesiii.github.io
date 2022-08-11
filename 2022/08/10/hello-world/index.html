@@ -206,7 +206,20 @@ if ('Utterances' === 'Utterances' || !false) {
 POWERMODE.shake = true;
 POWERMODE.mobile = false;
 document.body.addEventListener('input', POWERMODE);
-</script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["link[rel=\"canonical\"]","meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+</script><script>((window.gitter = {}).chat = {}).options = {
+  room: 'blog_comm',
+};
+
+if (false) {
+  function chatBtnHide () {
+    document.getElementsByClassName('gitter-open-chat-button')[0].style.display= 'none'
+  }
+
+  function chatBtnShow () {
+    document.getElementsByClassName('gitter-open-chat-button')[0].style.display= 'block'
+  }
+}
+</script><script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async="async" defer="defer"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["link[rel=\"canonical\"]","meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
 
 var pjax = new Pjax({
   elements: 'a:not([target="_blank"])',
