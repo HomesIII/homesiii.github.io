@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>记一次简单的python爬虫</title>
+      <link href="/2022/08/11/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%AE%80%E5%8D%95%E7%9A%84python%E7%88%AC%E8%99%AB/"/>
+      <url>/2022/08/11/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%AE%80%E5%8D%95%E7%9A%84python%E7%88%AC%E8%99%AB/</url>
+      
+        <content type="html"><![CDATA[<p>最近在学lisp，<br>发现一本在线的lisp书籍:<br><a href="https://gigamonkeys.com/book/">Practical common lisp</a><br>手痒，于是乎:</p><h1 id="python爬取practical-common-lisp"><a href="#python爬取practical-common-lisp" class="headerlink" title="python爬取practical common lisp"></a>python爬取practical common lisp</h1><p>获取源代码:</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line">html = requests.get(<span class="string">&#x27;https://gigamonkeys.com/book/&#x27;</span>).text</span><br><span class="line"><span class="built_in">print</span>(html)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hello-world</title>
       <link href="/2022/08/10/hello-world/"/>
       <url>/2022/08/10/hello-world/</url>
