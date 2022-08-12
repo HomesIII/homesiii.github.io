@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>common-lisp-variables</title>
+      <link href="/2022/08/12/common-lisp-variables/"/>
+      <url>/2022/08/12/common-lisp-variables/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="变量基础"><a href="#变量基础" class="headerlink" title="变量基础"></a>变量基础</h1><blockquote><p>Common Lisp 是动态类型的语言——动态检测类型错误, 另一方面，Common Lisp是一种强类型语言——没有办法将对象视为不是它的类的实例</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> lisp </tag>
+            
+            <tag> programming </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>突发奇想</title>
       <link href="/2022/08/11/%E7%AA%81%E5%8F%91%E5%A5%87%E6%83%B3/"/>
       <url>/2022/08/11/%E7%AA%81%E5%8F%91%E5%A5%87%E6%83%B3/</url>
